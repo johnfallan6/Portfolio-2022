@@ -1,7 +1,9 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import { DiReact } from 'react-icons/di';
+import { GiLightBulb } from 'react-icons/gi';
+import { GoLightBulb } from 'react-icons/go';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
@@ -10,14 +12,14 @@ const Header = () =>  (
     <Div1>
       <Link href='/'>
         <a style={{display: "flex", alignItems: "center", color: 'whitesmoke', marginBottom: '20px'}}>
-          <DiCssdeck size="4rem" /> <Span>John Allan</Span>
+          <DiReact size="4rem" /> <Span>John Allan</Span>
         </a>
       </Link>
     </Div1>
     <Div2>
       <li>
-        <Link href="#about">
-          <NavLink>About Me</NavLink>
+        <Link href="#tech">
+          <NavLink>Tech</NavLink>
         </Link>
       </li>
       <li>
@@ -26,13 +28,15 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <Link href="#contact">
-          <NavLink>Contact Me</NavLink>
+        <Link href="#timeline">
+          <NavLink>About</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#lightmode">
-          <NavLink> X </NavLink>
+          <NavLink>
+            <GoLightBulb size ="2rem" />
+          </NavLink>
         </Link>
       </li>
     </Div2>
