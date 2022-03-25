@@ -39,9 +39,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2005, text: "Obtained Bachelors Degree in Animation" },
-  { year: 2007, text: "Worked as a Hiring Manager for a hospitality company" },
-  { year: 2016, text: "Began working in special education and job coaching" },
+  { year: 2005, text: "Obtained Bachelors Degree in Animation from UCLAN - UK" },
+  { year: 2007, text: "Worked in Yosemite National Park area as a Hiring Manager and mountain guide" },
+  { year: 2016, text: "Began working in special education as an Employment Specialist" },
   { year: 2021, text: "Started learning to code using html, css, and vanilla js" },
   { year: 2022, text: "Started working on my own projects using react and react native" },
 ];
